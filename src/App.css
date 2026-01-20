@@ -1,0 +1,136 @@
+.App {
+    width: 100%;
+    max-width: 320px;
+    background: linear-gradient(180deg, #23243a 0%, #1a1a2e 100%);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+/* Introduction Section */
+.introduction {
+    background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+    padding: 40px 20px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction img {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.introduction h1 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.introduction h2 {
+    color: #a0aec0;
+    font-size: 0.85rem;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+/* Buttons Container */
+.btn-group {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-email {
+    background-color: #f7fafc;
+    color: #1a202c;
+}
+
+.btn-email:hover {
+    background-color: #e2e8f0;
+    transform: translateY(-2px);
+}
+
+.btn-linkedin {
+    background-color: #0077b5;
+    color: #ffffff;
+}
+
+.btn-linkedin:hover {
+    background-color: #005e93;
+    transform: translateY(-2px);
+}
+
+/* Content Sections */
+.content-section {
+    padding: 20px 24px;
+}
+
+.about,
+.interests--section {
+    padding: 20px 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.about h2,
+.interests--section h2 {
+    color: #a0aec0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.about p,
+.interests--section p {
+    color: #e2e8f0;
+    font-size: 0.85rem;
+    line-height: 1.6;
+}
+
+/* Footer / Social Links */
+.footer {
+    padding: 20px 24px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-link {
+    color: #718096;
+    font-size: 1.2rem;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+/* Icons styling */
+.icon {
+    width: 16px;
+    height: 16px;
+}
